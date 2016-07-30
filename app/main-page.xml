@@ -1,0 +1,5 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+  <StackLayout>
+    <Label text="__NAME__" class="title"/>
+  </StackLayout>
+</Page>
