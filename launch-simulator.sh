@@ -15,4 +15,9 @@ command=( "$screenshot" "${options[@]}" )
 # execute it:
 "${command[@]}"
 
-kill $SIM_PID
+kill="killall"
+options=( "background" )
+command=( "$kill" "${options[@]}" )
+ 
+# execute it:
+"${command[@]}"
