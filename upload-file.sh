@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-image="$(cat /Users/mike/Desktop/screenshot-Brosteins.png | base64)"
+image="$(cat /Users/mike/Desktop/screenshot-__Name__.png | base64)"
 
 body='{"tweetid":"__TweetId__","image":"'$image'"}'
 
