@@ -15,9 +15,5 @@ command=( "$screenshot" "${options[@]}" )
 # execute it:
 "${command[@]}"
 
-kill="killall"
-options=( "background" )
-command=( "$kill" "${options[@]}" )
- 
 # execute it:
-"${command[@]}"
+kill $(jobs -p)
