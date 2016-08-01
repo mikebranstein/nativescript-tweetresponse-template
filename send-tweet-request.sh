@@ -35,8 +35,7 @@ echo "TWEETID = "$TWEETID
 echo "USERNAME = "$USERNAME
 echo "PASSWORD = "$PASSWORD
 
-#image="$(cat /Users/mike/Desktop/screenshot-"$FILENAME".png | base64)"
-#auth="$(echo -n "$USERNAME":"$PASSWORD" | base64)"
+image="$(cat /Users/mike/Desktop/screenshot-"$FILENAME".png | base64)"
 
 body='{"tweetid":"'$TWEETID'","image":"'$image'"}'
 
