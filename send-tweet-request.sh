@@ -44,5 +44,7 @@ httpie="http"
 options=( "POST" "https://nstweet.brosteins.com/api/tweet" "body='$body'" --ignore-stdin  --"auth" "$USERNAME:$PASSWORD" --"json" )
 command=( "$httpie" "${options[@]}" )
 
+echo "${command[@]}"
+
 # execute it:
 "${command[@]}"
