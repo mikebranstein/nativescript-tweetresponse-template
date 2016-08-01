@@ -37,11 +37,11 @@ echo "PASSWORD = "$PASSWORD
 
 image="$(cat /Users/mike/Desktop/screenshot-"$FILENAME".png | base64)"
 
-body='{"tweetid":"'$TWEETID'","image":"'$image'"}'
+body="{"tweetid":\""$TWEETID"\","image":\""$image"\"}"
 
 echo="echo"
 httpie="http"
-options=( "POST" "https://nstweet.brosteins.com/api/tweet" "body='$body'" --ignore-stdin  --"auth" "$USERNAME:$PASSWORD" --"json" )
+options=( "POST" "https://nstweet.brosteins.com/api/tweet" "tweetid=$TWEETID" "image=$image" --ignore-stdin  --"auth" "$USERNAME:$PASSWORD" --verbose )
 command=( "$httpie" "${options[@]}" )
 
 echo "${command[@]}"
