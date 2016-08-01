@@ -1,7 +1,7 @@
 ﻿.title {
     font-size: 30;
     horizontal-align: center;
-    margin: 20;
+    color: #eeeeee;
 }
 
 button {
@@ -11,8 +11,20 @@ button {
 
 .message {
     font-size: 20;
-    color: #284848;
+    color: #eeeeee;
     horizontal-align: center;
-    margin: 0 20;
+    margin: 10 20;
     text-align: center;
+}
+
+Page {
+    background-color: #272734;
+}
+
+StackLayout {
+    margin-top: 50;
+}
+
+Image {
+    horizontal-align: center;
 }

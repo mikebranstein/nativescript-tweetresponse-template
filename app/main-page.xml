@@ -1,5 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd">
   <StackLayout>
-    <Label text="__Name__" class="title"/>
+    <Image src="res://nslogo" stretch="none" />
+    <Label text="Thanks" textWrap="true" class="title"/>
+    <Label text="__Name__" textWrap="true" class="title"/>
+    <Label text="This app was created with NativeScript!" textWrap="true" class="message" />
   </StackLayout>
 </Page>
