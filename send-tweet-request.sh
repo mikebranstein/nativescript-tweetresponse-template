@@ -42,7 +42,7 @@ body='{"tweetid":"'$TWEETID'","image":"'$image'"}'
 
 echo="echo"
 httpie="http"
-options=( "POST" "https://nstweet.brosteins.com/api/tweet" "body='$body'"  --"auth" "$USERNAME:$PASSWORD" --"json" )
+options=( "POST" "https://nstweet.brosteins.com/api/tweet" "body='$body'" --ignore-stdin  --"auth" "$USERNAME:$PASSWORD" --"json" )
 command=( "$httpie" "${options[@]}" )
 
 # execute it:
