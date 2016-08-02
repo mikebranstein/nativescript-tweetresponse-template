@@ -10,7 +10,11 @@ Note: as of August 22, 2016, the automated tweet response method will be decommi
 
 ## Running the code by tweeting
 
-The easiest way to run the code is to tweet [@MikeBranstein](https://twitter.com/mikebranstein) and include the hashtag [#makemeanapp](https://twitter.com/search?q=%23makemeanapp) in the tweet. If it's after August 22, 2016, continue reading ot learn how you can run this code by yourself.
+First things, first. Am I serious? Yes. 
+
+Tweet [@MikeBranstein](https://twitter.com/mikebranstein) and include the hashtag [#makemeanapp](https://twitter.com/search?q=%23makemeanapp) in the tweet and I'll send you a screenshot of your app running in an emulator. Yeah seriously. It's real. No tricks. 
+
+If it's after August 22, 2016, continue reading ot learn how you can run this code by yourself.
 
 ### After you tweet
 
