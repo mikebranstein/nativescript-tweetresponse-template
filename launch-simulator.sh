@@ -27,7 +27,7 @@ echo $SIM_PID
 sleep 45
 
 screenshot="/Applications/iOS-Simulator Cropper.app/Contents/MacOS/iOS-Simulator Cropper"
-options=( -"p" "2" -"f" "/Users/mike/Desktop/screenshot-$FILENAME.png" )
+options=( -"p" "2" -"f" "/Users/"$USER"/Desktop/screenshot-$FILENAME.png" )
 command=( "$screenshot" "${options[@]}" )
 
 # execute it:
