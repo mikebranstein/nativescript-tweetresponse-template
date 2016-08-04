@@ -43,17 +43,23 @@ This processes takes about 3-4 minutes, so please be patient.
 
 To use this code, clone the repository:
 
-`> git clone https://github.com/mikebranstein/nativescript-tweetresponse-template`
+```
+> git clone https://github.com/mikebranstein/nativescript-tweetresponse-template
+```
 
 After cloing the repository, install the ios platform and run the app in the iOS simulator:
 
-`> tns platform add ios`
-`> tns run ios --emulator`
+```
+> tns platform add ios
+> tns run ios --emulator
+```
 
 If you prefer Android, install the android platofrm and run in the Android emulator:
 
-`> tns platform add android`
-`> tns run android`
+```
+> tns platform add android
+> tns run android
+```
 
 ## Prerequisites
 
