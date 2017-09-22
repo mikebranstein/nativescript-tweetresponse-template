@@ -24,7 +24,7 @@ $sim &
 SIM_PID=$!
 echo $SIM_PID
 
-sleep 45
+sleep 60
 
 screenshot="/Applications/iOS-Simulator Cropper.app/Contents/MacOS/iOS-Simulator Cropper"
 options=( -"p" "2" -"f" "/Users/"$USER"/Desktop/screenshot-$FILENAME.png" )
